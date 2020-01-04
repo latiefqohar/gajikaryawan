@@ -92,32 +92,78 @@
 </div>
 
 <h3>Rincian gaji</h3>
-	<table cellspacing='0'>
+<table class="table">
+		<tr>
+			<td width="10%">Nik</td>
+			<td>:</td>
+			<td>2008</td>
+			<td width="10%">Alamat</td>
+			<td>:</td>
+			<td>jakarta</td>
+			<td width="10%">Tanggal</td>
+			<td>:</td>
+			<td> 20 nov 2019</td>
+		</tr>
+		<tr>
+			<td width="10%">Nama</td>
+			<td>:</td>
+			<td>erwin</td>
+			<td width="10%">Jabatan</td>
+			<td>:</td>
+			<td>supervisor</td>
+			<td></td>
+			<td></td>
+			<td></td>
+		</tr>
+	</table>
+
+	<table class="table table-bordered">
 		<thead>
 			<tr>
-				<th>Nama Komponen</th>
-				<th>Jumlah</th>
+				<th>NO</th>
+				<th>KETERANGAN</th>
+				<th>JUMLAH</th>
 			</tr>
 		</thead>
 		<tbody>
 			<tr>
-				<td>Andi</td>
-				<td>Jakarta Selatan</td>
+				<th>1</th>
+				<td>Gaji Pokok</td>
+				<td>Rp. 20.000.000</td>
 			</tr>
 			<tr>
-				<td>Budi</td>
-				<td>Bandung</td>	
+				<th>2</th>
+				<td>Tunjangan Kesehatan</td>
+				<td>Rp. 1.000.000</td>
 			</tr>
 			<tr>
-				<td>Cahyo</td>
-				<td>Bekasi</td>	
+				<th>3</th>
+				<td>Tunjangan Transportasi</td>
+				<td>Rp. 1.000.000</td>
 			</tr>
 			<tr>
-				<td>Darma</td>
-				<td>Bali</td>
+				<th>4</th>
+				<td>Tunjangan Pendidikan</td>
+				<td>Rp. 1.000.000</td>
+			</tr>
+			<tr>
+				<th>5</th>
+				<td>Tunjangan Keluarga</td>
+				<td>Rp. 1.000.000</td>
+			</tr>
+			<tr>
+				<th colspan="2">TOTAL DITERIMA</th>
+				<th>Rp. 1.000.000
+				</th>
 			</tr>
 		</tbody>
 	</table>
+	<p style="text-align: right;">
+		Penerima,
+		<br><br><br><br>
+
+		<b>Erwin</b>
+	</p>
 
 </body>
 
