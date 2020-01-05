@@ -54,6 +54,7 @@ class Karyawan_model extends CI_Model
 	$this->db->or_like('alamat', $q);
 	$this->db->or_like('jenis_kelamin', $q);
 	$this->db->or_like('id_pekerjaan', $q);
+	$this->db->or_like('email', $q);
 	$this->db->limit($limit, $start);
         return $this->db->get($this->table);
     }

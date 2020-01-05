@@ -92,29 +92,27 @@
 </div>
 
 <h3>Rincian gaji</h3>
-<table class="table">
+<table style="margin-bottom:50px">
+<thead>
 		<tr>
-			<td width="10%">Nik</td>
-			<td>:</td>
+			<th>Nik</th>
 			<td>2008</td>
-			<td width="10%">Alamat</td>
-			<td>:</td>
+			<th>Alamat</th>
 			<td>jakarta</td>
-			<td width="10%">Tanggal</td>
-			<td>:</td>
+			<th>Tanggal</th>
 			<td> 20 nov 2019</td>
 		</tr>
+		</thead>
+		<tbody>
 		<tr>
-			<td width="10%">Nama</td>
-			<td>:</td>
+			<th>Nama</th>
 			<td>erwin</td>
-			<td width="10%">Jabatan</td>
-			<td>:</td>
+			<th>Jabatan</td>
 			<td>supervisor</td>
 			<td></td>
 			<td></td>
-			<td></td>
 		</tr>
+		</tbody>
 	</table>
 
 	<table class="table table-bordered">
@@ -158,12 +156,7 @@
 			</tr>
 		</tbody>
 	</table>
-	<p style="text-align: right;">
-		Penerima,
-		<br><br><br><br>
-
-		<b>Erwin</b>
-	</p>
+	<p>Note: Jika ada kesalahan dalam perhitungan gaji anda dapat menghubungi Payroll dengan membawa slip gaji anda</p>
 
 </body>
 

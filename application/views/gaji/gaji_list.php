@@ -1,6 +1,7 @@
 <div class="row" style="margin-bottom: 10px">
             <div class="col-md-4">
                 <?php echo anchor(site_url('gaji/create'),'Create', 'class="btn btn-primary"'); ?>
+
                 <?php echo anchor(site_url('gaji/send_mail'),'Mail All Data', 'class="btn btn-success"'); ?>
             </div>
             <div class="col-md-4 text-center">

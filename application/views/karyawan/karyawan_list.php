@@ -41,6 +41,7 @@
         <th>Pendidikan</th>
         <th>Asal Sekolah</th>
         <th>Jabatan</th>
+        <th>Email</th>
         <th>Action</th>
             </tr><?php
 
@@ -61,6 +62,7 @@
             <td><?php echo $karyawan->pendidikan ?></td>
             <td><?php echo $karyawan->asal_sekolah ?></td>
             <td><?php echo $karyawan->id_pekerjaan ?></td>
+            <td><?php echo $karyawan->email ?></td>
             <td style="text-align:center" width="200px">
                 <?php  
                 echo anchor(site_url('karyawan/update/'.$karyawan->id_karyawan),'Update'); 

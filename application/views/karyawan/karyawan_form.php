@@ -16,6 +16,10 @@
             <input type="text" class="form-control" name="nama" id="nama" placeholder="Nama" value="<?php echo $nama; ?>" />
         </div>
         <div class="form-group">
+            <label for="varchar">Email <?php echo form_error('email') ?></label>
+            <input type="email" class="form-control" name="email" id="email" placeholder="email" value="<?php echo $email; ?>" />
+        </div>
+        <div class="form-group">
             <label for="alamat">Alamat <?php echo form_error('alamat') ?></label>
             <textarea class="form-control" rows="3" name="alamat" id="alamat" placeholder="Alamat"><?php echo $alamat; ?></textarea>
         </div>
